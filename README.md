@@ -7,7 +7,7 @@ Los Slices se caracterizan por:
 - Su tamaño es dinámico
 - Poseer una capacidad
 
- Un Slice se puede crear a través de la función make(tipo, tamaño, capacidad), la cuál asigna un Array a cero y retorna un Slice que hace referencia a ese Array, sin embargo el parámetro de capacidad es opcional.
+ Un Slice se puede crear a través de la función **make(tipo, tamaño, capacidad)**, la cuál asigna un Array a cero y retorna un Slice que hace referencia a ese Array, sin embargo el parámetro de capacidad es opcional.
 
  ``` elementos := make([int], 5, 20) ``` 
 
