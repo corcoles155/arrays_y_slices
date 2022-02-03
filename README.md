@@ -20,7 +20,7 @@ slice[2:] //Acceder a los alementos desde 2-len(slice)
 slice[:] //Acceder a todos los elementos
  ```
 
-¡NOTA IMPORTANTE!: Si se inicializa un slice como en los ejemplos anteriores, es importante tener en cuenta que lo que se crea realmente es un apuntador al espacio de memoria del slice que se usa como información base; por tanto, si se hace un cambio sobre alguno de ellos, el otro también se verá afectado.
+**¡NOTA IMPORTANTE!:** Si se inicializa un slice como en los ejemplos anteriores, es importante tener en cuenta que lo que se crea realmente es un apuntador al espacio de memoria del slice que se usa como información base; por tanto, si se hace un cambio sobre alguno de ellos, el otro también se verá afectado.
 
 ## función append() 
 Permite añadir uno o varios elementos nuevos desde el último índice del slice. Si el slice aún tiene sus últimos índices disponibles, simplemente se añade el nuevo elemento a la cola; en cambio, si el último índice ya está utilizado, se aumenta dinámicamente la capacidad del slice al doble y se añade dicho elemento en la última posición.
