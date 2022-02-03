@@ -1,4 +1,4 @@
-# Arrays y Slices (https://go.dev/blog/slices-intro)
+# Arrays y Slices en GOLANG (https://go.dev/blog/slices-intro)
 
 A diferencia de los Arrays que poseen un tamaño fijo, los Slices representan una secuencia de tamaño variable de elementos del mismo tipo, es decir poseen un tamaño dinámico. 
 
